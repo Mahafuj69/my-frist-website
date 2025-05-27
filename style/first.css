@@ -195,7 +195,7 @@
   .btn-download {
     padding: 8px 15px;
     font-size: 14px;
-    margin-top: 0; /* Removed top margin to keep button aligned */
+    margin-top: 0; 
   }
 
   .hero {
