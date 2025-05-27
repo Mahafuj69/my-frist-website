@@ -265,12 +265,23 @@
   }
 
   .section-two {
-    gap: 30px;
-    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 10px;
+  }
+
+  .section-two img {
+    order: 1;
   }
 
   .section-two .text {
-    font-size: 20px;
+    order: 2;
+    font-size: 18px;
+  }
+
+  
+  .section-two .text {
+    text-align: center;
   }
 
   .card {
