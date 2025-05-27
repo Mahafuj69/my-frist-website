@@ -183,12 +183,11 @@
       height: auto;
     
     }
-
-    /* *amer phrotom dika somosa hoschilo code likhta jai . ti ame  media queries gula sasa dilam  */
-
 @media (max-width: 600px) {
   .navbar {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 20px;
     text-align: center;
   }
@@ -196,7 +195,7 @@
   .btn-download {
     padding: 8px 15px;
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 0; /* Removed top margin to keep button aligned */
   }
 
   .hero {
